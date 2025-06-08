@@ -1,3 +1,4 @@
+import allure
 from faker import Faker
 from pages.main_page import MainPage
 from constants.objects.user import User
@@ -10,7 +11,8 @@ def generate_user():
         email=fake.email(),
         current_address="address",
     )
-    
+
+@allure.title("E2E Text Box Test")
 def test_main_to_text_box(driver):
     user = generate_user()
     

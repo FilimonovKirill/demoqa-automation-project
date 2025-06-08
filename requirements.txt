@@ -4,3 +4,4 @@ faker>=19.0.0
 python-dotenv>=1.0.0
 allure-pytest>=2.13.2
 webdriver-manager>=4.0.0
+allure-python-commons~=2.14.2
